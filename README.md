@@ -4,12 +4,23 @@
 
 > 本レポジトリは [Zero to Snowflake](https://quickstarts.snowflake.com/guide/zero_to_snowflake) を原本とする、日本語化済みサンプルファイルをまとめたものです。
 
-このガイドでは、Snowflakeのコア機能について触れていきます。
-まずはスケーラブルな計算のための仮想ウェアハウス、シームレスなデータ復旧のためのUNDROP、コスト制御のためのリソースモニターなどの基本機能から始まります。
-外部および半構造化VARIANTデータを取り込み、Dynamic Tables (動的テーブル) を使用して宣言的に変換することにより、自動化されたデータパイプラインの構築方法を学びます。
-データベース内インテリジェンスのためのCortex機能とSQL支援のためのCopilotを活用したSnowflakeのAIレイヤーを紹介します。
+このガイドでは、全5章に分けてSnowflakeのコア機能について触れていきます。
+
+### 1. Getting Started with Snowflake
+まずはスケーラブルな計算のための仮想ウェアハウス、シームレスなデータ復旧のためのUNDROP、コスト制御のためのリソースモニターなどの基本機能を確認します。
+
+### 2. Simple Data Pipeline
+外部データおよび半構造化データを取り込み、Dynamic Tables (動的テーブル) を使用して宣言的に変換することにより、自動化されたデータパイプラインの構築方法を学びます。
+
+### 3. Snowflake Cortex AI
+データベース内インテリジェンスのためのCortex機能と、コード作成支援のためのCopilotを活用したSnowflakeのAIレイヤーを紹介します。
+
+### 4. Governance with Horizon
 ガバナンスは、ロールベースのアクセス制御、列レベルマスキング、行レベルポリシーを使用してデータを保護するSnowflake Horizonを通じて確立され、Trust Centerによりセキュリティ監視が可能になります。
+
+### 5. Apps & Collaboration
 最後に、Snowflake Marketplaceからデータを取得して分析を豊かにし、Streamlitを使用してデータ上に直接インタラクティブアプリケーションを構築する方法に触れることができます。
+
 
 ## ステップバイステップ ガイド
 
