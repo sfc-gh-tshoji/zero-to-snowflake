@@ -133,7 +133,7 @@ ORDER BY
     LEFT(review, 100) || '...' AS review_preview,
     SNOWFLAKE.CORTEX.EXTRACT_ANSWER(
         review,
-        'このレビューで言及されている特定の改善点や苦情は何ですか？'
+        'What specific improvement or complaint is mentioned in this review?'
     ) AS specific_feedback
 FROM 
     harmonized.truck_reviews_v

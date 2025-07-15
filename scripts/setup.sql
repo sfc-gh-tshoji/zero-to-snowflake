@@ -3,6 +3,9 @@ USE ROLE sysadmin;
 -- セッションにクエリタグを割り当て
 ALTER SESSION SET query_tag = '{"origin":"sf_sit-is","name":"tb_zts","version":{"major":1, "minor":1},"attributes":{"is_quickstart":1, "source":"sql", "vignette": "intro"}}';
 
+-- Cortex AI用のクロスリージョンコールを有効化
+ALTER ACCOUNT SET CORTEX_ENABLED_CROSS_REGION = 'ANY_REGION';
+
 /*--
  • データベース、スキーマ、ウェアハウスの作成
 --*/
